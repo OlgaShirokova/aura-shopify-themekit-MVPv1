@@ -1,4 +1,7 @@
-<!-- GENERAL AND STANDARD CUSTOM CONTENT, CAN BE INCLUDED IN ANY OTHER PAGE-->
+<!-- CUSTOM CONTENT THAT GOES INTO THE 'KNOW YOUR PRODUCTS PAGE'
+BE CAREFUL AT USING IT IN OTHER PLACES DUE TO LINKING BETWEEN IMAGE,
+ITS REFERENCE COLLECTION AND THE TITLE OF THE FOLLOWING TEXT -->
+
 
 <div class="page-width">
   {% if section.settings.title != blank %}
@@ -45,7 +48,9 @@
             {% when 'image' %}
               {% if block.settings.image != blank %}
                 {%- assign img_url = block.settings.image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+                {%- assign collectionref = collections[block.settings.collectionref] -%}
                 <div style="padding-top:{{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100}}%;">
+                  <a href="{{collectionref.url}}">
                   <img id="{{ img_id }}"
                        class="custom__image lazyload js"
                        src="{{ block.settings.image | img_url: '300x300' }}"
@@ -54,6 +59,7 @@
                        data-aspectratio="{{ block.settings.image.aspect_ratio }}"
                        data-sizes="auto"
                        alt="{{ block.settings.image.alt | escape }}">
+                  </a>
                 </div>
                 <noscript>
                   {% capture image_size %}{{ max_height }}x{% endcapture %}
@@ -63,14 +69,17 @@
                 {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
               {% endif %}
             {% when 'text' %}
-              <div class="medium-up--text-{{ block.settings.align_text }}">
-                {% if block.settings.title != blank %}
-                  <h4 class="h3">{{ block.settings.title | escape }}</h4>
-                {% endif %}
-                {% if block.settings.text != blank %}
-                  <div class="rte-setting">{{ block.settings.text }}</div>
-                {% endif %}
-              </div>
+            {%- assign collectionref2 = collections[block.settings.collectionref2] -%}
+            <div class="medium-up--text-{{ block.settings.align_text }}">
+              {% if block.settings.title != blank %}
+              <a href="{{collectionref2.url}}">
+                <h4 class="h3">{{ block.settings.title | escape }}</h4>
+              </a>
+              {% endif %}
+              {% if block.settings.text != blank %}
+                <div class="rte-setting">{{ block.settings.text }}</div>
+              {% endif %}
+            </div>
             {% when 'video' %}
               <div class="video-wrapper">
                 {% if block.settings.video_url == blank %}
@@ -127,9 +136,9 @@
 {% schema %}
   {
     "name": {
-      "en": "Custom content",
-      "de": "Personalisierter Content",
-      "fr": "Contenu personnalisé"
+      "en": "Custom Content2",
+      "de": "Personalisierter Content2",
+      "fr": "Contenu personnalisé2"
     },
     "class": "index-section",
     "settings": [
@@ -169,6 +178,15 @@
               "en": "Talk about your brand",
               "de": "Erzählen Sie von Ihrer Marke",
               "fr": "Parlez de votre marque"
+            }
+          },
+          {
+            "type": "collection",
+            "id": "collectionref2",
+            "label": {
+              "en": "Collection",
+              "de": "Kategorie",
+              "fr": "Collection"
             }
           },
           {
@@ -292,6 +310,24 @@
               "en": "Image",
               "de": "Foto",
               "fr": "Image"
+            }
+          },
+          {
+            "type": "text",
+            "id": "link",
+            "label": {
+              "en": "Link",
+              "de": "Link",
+              "fr": "Link"
+            }
+          },
+          {
+            "type": "collection",
+            "id": "collectionref",
+            "label": {
+              "en": "Collection",
+              "de": "Kategorie",
+              "fr": "Collection"
             }
           },
           {
@@ -881,9 +917,9 @@
     "presets": [
       {
         "name": {
-          "en": "Custom content",
-          "de": "Personalisierter Content",
-          "fr": "Contenu personnalisé"
+          "en": "Custom Content2",
+          "de": "Personalisierter Content2",
+          "fr": "Contenu personnalisé2"
         },
         "category": {
           "en": "Advanced layout",

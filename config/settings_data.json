@@ -31,9 +31,9 @@
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
-    "favicon": "shopify:\/\/shop_images\/Artboard.png",
+    "favicon": "shopify:\/\/shop_images\/Aura_Logo_v1.png",
     "checkout_header_image": "",
-    "checkout_logo_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Screen_Shot_2018-09-27_at_11.27.35.png",
     "checkout_logo_position": "left",
     "checkout_logo_size": "medium",
     "checkout_body_background_image": "",
@@ -51,10 +51,10 @@
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "",
-          "logo_max_width": 100,
-          "main_linklist": "",
-          "message": true,
+          "logo": "shopify:\/\/shop_images\/Screen_Shot_2018-09-27_at_11.27.35.png",
+          "logo_max_width": 95,
+          "main_linklist": "main-menu",
+          "message": false,
           "home_page_only": true,
           "message_text": "We are about to launch! Subscribe to become part of Aura and receive something special when we launch!",
           "message_link": "",
@@ -68,11 +68,11 @@
           "image": "shopify:\/\/shop_images\/inma-ibanez-67329_light2.jpeg",
           "alignment": "center",
           "title": "Make girls free and confident every day of the month.",
-          "text": "<p>Join&nbsp;AURA and we will send you a special personal invitation as soon as&nbsp;we&nbsp;are live!<\/p>",
+          "text": "<p>Choose your own Aura Box, personalize it and receive it before your next period with everything you need to make your period a special experience!<\/p>",
           "hero_size": "x-large",
           "text_size": "large",
           "button_label": "Choose my Box!",
-          "button_link": "shopify:\/\/pages\/choose-your-own-aura-box"
+          "button_link": "shopify:\/\/pages\/design-your-box"
         }
       },
       "slideshow": {
@@ -112,14 +112,13 @@
       },
       "featured-collections": {
         "type": "collection",
-        "disabled": true,
         "settings": {
-          "title": "Featured collection",
+          "title": "Our Best Sellers",
           "collection": "frontpage",
           "grid": 3,
-          "rows": 2,
+          "rows": 1,
           "show_vendor": false,
-          "show_view_all": false
+          "show_view_all": true
         }
       },
       "feature-row": {
@@ -146,20 +145,125 @@
         "type": "collection-template",
         "settings": {
           "layout": "grid",
-          "grid": 4,
+          "grid": 3,
           "rows": 2,
           "show_collection_image": true,
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true
         }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "image_size": "medium",
+          "show_quantity_selector": false,
+          "show_variant_labels": true,
+          "show_vendor": false,
+          "enable_zoom": true,
+          "enable_payment_button": false,
+          "show_share_buttons": true
+        }
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "blocks": {
+          "1538148404751": {
+            "type": "collection",
+            "settings": {
+              "collection": "all-products"
+            }
+          }
+        },
+        "block_order": [
+          "1538148404751"
+        ],
+        "settings": {
+          "display_type": "all",
+          "sort": "alphabetical",
+          "grid": 2
+        }
+      },
+      "blog-template": {
+        "type": "blog-template",
+        "settings": {
+          "layout": "list",
+          "blog_show_author": true,
+          "blog_show_date": true
+        }
+      },
+      "article-template": {
+        "type": "article-template",
+        "settings": {
+          "blog_show_author": true,
+          "blog_show_date": true,
+          "show_share_buttons": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": true
+        }
+      },
+      "1538148722141": {
+        "type": "logo-bar",
+        "blocks": {
+          "1538148722141-0": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/eco_by_naty_logo_2_1_1_1_1_1_3_3_2_2_1.jpg",
+              "link": ""
+            }
+          },
+          "1538148722141-1": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/always-logo-png-always-logo-515.png",
+              "link": ""
+            }
+          },
+          "1538148722141-2": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed.jpg",
+              "link": ""
+            }
+          },
+          "1538148722141-3": {
+            "type": "logo_image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OB-LOGO.jpg",
+              "link": ""
+            }
+          }
+        },
+        "block_order": [
+          "1538148722141-0",
+          "1538148722141-1",
+          "1538148722141-2",
+          "1538148722141-3"
+        ],
+        "settings": {
+          "title": "Some of our brands"
+        }
+      },
+      "1538148755753": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "Subscribe to our newsletter",
+          "subheading": "Relevant news, learnings you can't miss, community activities, special offers and so much more!",
+          "show_background": true
+        }
       }
     },
     "content_for_index": [
       "hero",
-      "featured-collections",
       "feature-row",
-      "slideshow"
+      "featured-collections",
+      "slideshow",
+      "1538148722141",
+      "1538148755753"
     ]
   },
   "presets": {
