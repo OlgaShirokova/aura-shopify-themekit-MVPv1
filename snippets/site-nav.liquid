@@ -63,7 +63,11 @@
       </li>
     {% else %}
       <li{% if link.active %} class="site-nav--active"{% endif %}>
+        {% if  link.title=="Design Box" %}
+        <a style="font-weight: bold; margin-bottom: -4px;" href="{{ link.url }}" class="site-nav__link site-nav__link--main"{% if link.active %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% else %}
         <a href="{{ link.url }}" class="site-nav__link site-nav__link--main"{% if link.active %} aria-current="page"{% endif %}>{{ link.title }}</a>
+        {% endif %}
       </li>
     {% endif %}
   {% endfor %}
