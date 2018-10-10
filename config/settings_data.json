@@ -71,7 +71,7 @@
           "text": "<p>Choose your own Aura Box, personalize it and receive it before your next period with everything you need to make your period a special experience!<\/p>",
           "hero_size": "x-large",
           "text_size": "large",
-          "button_label": "Choose my Box!",
+          "button_label": "Try Aura ▸",
           "button_link": "shopify:\/\/pages\/design-your-box"
         }
       },
@@ -254,6 +254,259 @@
           "section_title": "Subscribe to our newsletter",
           "subheading": "Relevant news, learnings you can't miss, community activities, special offers and so much more!",
           "show_background": true
+        }
+      },
+      "custom-collections1": {
+        "type": "custom-collections1",
+        "settings": {
+          "title": "Common Brands - Comfort Boxes",
+          "collection": "common-brands-comfort-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-collections2": {
+        "type": "custom-collections2",
+        "settings": {
+          "title": "Eco Brands - Comfort Boxes",
+          "collection": "eco-brands-comfort-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-collections3": {
+        "type": "custom-collections3",
+        "settings": {
+          "title": "Common Brands - Extra Boxes",
+          "collection": "common-brands-extra-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-collections4": {
+        "type": "custom-collections4",
+        "settings": {
+          "title": "Eco Brands - Extra Boxes",
+          "collection": "eco-brands-extra-boxes",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "custom-content": {
+        "type": "custom-content",
+        "blocks": {
+          "1538498712193": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1538498720830": {
+            "type": "image",
+            "settings": {
+              "image": "",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "1538498742807": {
+            "type": "text",
+            "settings": {
+              "title": "Talk about your brand",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1538498712193",
+          "1538498720830",
+          "1538498742807"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "custom-content2": {
+        "type": "custom-content2",
+        "blocks": {
+          "1538558535226": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "collectionref2": "",
+              "text": "<p>Here you can find all the details regarding our period products.<br>Choose knowing exactly what you are choosing.<br><br><br><\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "1538558707596": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/eco_by_naty_logo_2_1_1_1_1_1_3_3_2_2_1.jpg",
+              "link": "",
+              "collectionref": "naty",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1538558750651": {
+            "type": "text",
+            "settings": {
+              "title": "ECO by Naty - Pads and Tampons",
+              "collectionref2": "naty",
+              "text": "<p>&bull; Ecologycal and sustainable brand, originally swedish.&nbsp;<br>&bull;&nbsp;100% GOTS certified organic cotton<br>&bull; Biodegradable &amp; compostable<br>&bull; 100% Totally chlorine free<\/p>\n<p>No plastics. No rayon. No dyes. No bleach or chemicals used. No worries<br>Ultra-absorbent, organic cotton tampons from our award-winning women&rsquo;s care line for minimal flow days. Eco by Naty&rsquo;s tampons look and work like other tampons but the experience of wearing ecological tampons without petroleum-based plastics or synthetic fibers against your skin will tell you all you need to know. Fully compostable and free from chemicals that can irritate sensitive pH balances, our tampons are designed to work in harmony with women&rsquo;s bodies and the environment; not against.<br><br><\/p>",
+              "width": "66%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1538559585033": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/unnamed.jpg",
+              "link": "",
+              "collectionref": "masmi",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1538559602658": {
+            "type": "text",
+            "settings": {
+              "title": "Masmi - Tampons and Pads",
+              "collectionref2": "masmi",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your storeUse this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>\n<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1538564921883": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/OB-LOGO.jpg",
+              "link": "wfwefwef",
+              "collectionref": "o-b",
+              "width": "33%",
+              "alignment": "center"
+            }
+          },
+          "1538563811460": {
+            "type": "text",
+            "settings": {
+              "title": "o.b. - Tampons and Pads",
+              "collectionref2": "o-b",
+              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          }
+        },
+        "block_order": [
+          "1538558535226",
+          "1538558707596",
+          "1538558750651",
+          "1538559585033",
+          "1538559602658",
+          "1538564921883",
+          "1538563811460"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "custom-collections-prod1": {
+        "type": "custom-collections-prod1",
+        "settings": {
+          "title": "Pads & Tampons",
+          "collection": "pads-tampons",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod2": {
+        "type": "custom-collections-prod2",
+        "settings": {
+          "title": "Innovative Tampons",
+          "collection": "innovative-tampons",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod3": {
+        "type": "custom-collections-prod3",
+        "settings": {
+          "title": "Salvaslips",
+          "collection": "salvaslips",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod4": {
+        "type": "custom-collections-prod4",
+        "settings": {
+          "title": "Cleansing",
+          "collection": "cleansing",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod5": {
+        "type": "custom-collections-prod5",
+        "settings": {
+          "title": "Care",
+          "collection": "care",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod6": {
+        "type": "custom-collections-prod6",
+        "settings": {
+          "title": "Health",
+          "collection": "health",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "custom-collections-prod7": {
+        "type": "custom-collections-prod7",
+        "settings": {
+          "title": "Sex Life",
+          "collection": "sex-life",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
         }
       }
     },
