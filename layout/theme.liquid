@@ -2,6 +2,7 @@
 <!--[if IE 9]> <html class="ie9 no-js" lang="{{ shop.locale }}"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{ shop.locale }}"> <!--<![endif]-->
 <head>
+  <script src="//d1liekpayvooaz.cloudfront.net/apps/customizery/customizery.js?shop={{shop.permanent_domain}}"></script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -72,6 +73,9 @@
   <!--[if lte IE 9]><script src="{{ 'theme.js' | asset_url }}"></script><![endif]-->
 
   {{ content_for_header }}
+{%- include 'bold-common' -%}
+{%- include 'bold-product' with product, hide_action: 'header' -%}
+{%- include 'bold-ro-init' -%}
 
 <!--   This area was rendered by Powerful Formbuilder App -->
 	{% include 'globo-form-script' %}

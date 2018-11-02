@@ -32,6 +32,9 @@
     "social_youtube_link": "",
     "social_vimeo_link": "",
     "favicon": "shopify:\/\/shop_images\/Aura_Logo_v1.png",
+    "recurring-orders-loading": "Loading subscription info...",
+    "recurring-orders-inherit-classes": false,
+    "recurring-orders-additional-button-classes": "",
     "checkout_header_image": "",
     "checkout_logo_image": "shopify:\/\/shop_images\/Screen_Shot_2018-09-27_at_11.27.35.png",
     "checkout_logo_position": "left",
@@ -67,8 +70,8 @@
         "settings": {
           "image": "shopify:\/\/shop_images\/inma-ibanez-67329_light2.jpeg",
           "alignment": "center",
-          "title": "Make girls free and confident every day of the month.",
-          "text": "<p>Choose your own Aura Box, personalize it and receive it before your next period with everything you need to make your period a special experience!<\/p>",
+          "title": "Let's make your period a special experience",
+          "text": "<p>We bring girls freedom, confidence and joy every day of the cycle.<\/p>\n<p><\/p>\n<p>Design your&nbsp;personal period box today and feel how Aura transforms your period!<\/p>",
           "hero_size": "x-large",
           "text_size": "large",
           "button_label": "Try Aura ▸",
@@ -113,7 +116,7 @@
       "featured-collections": {
         "type": "collection",
         "settings": {
-          "title": "Our Best Sellers",
+          "title": "Most Beloved Boxes",
           "collection": "frontpage",
           "grid": 3,
           "rows": 1,
@@ -124,7 +127,7 @@
       "feature-row": {
         "type": "feature-row",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Artboard.png",
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
           "layout": "left",
           "title": "We deserve it",
           "text": "<p>Aura is here to change the experience of the period forever. <br>We bring you variety of the best products for your sensitive days and deliver them to your doorstep in a beautiful box together with extra treats and a burst of motivation and excitement, all of this tailor made for you and your period. <br>Because you deserve it.<\/p>",
@@ -303,11 +306,39 @@
       "custom-content": {
         "type": "custom-content",
         "blocks": {
+          "1538498742807": {
+            "type": "text",
+            "settings": {
+              "title": "We are Aura, nice to meet you!",
+              "text": "<p>We are here for you with one goal: transform the period,<br> to make it&nbsp;a pleasant and joyful experience for every woman.<br>The period is a beautiful part of each of us, so let's prove it:<br>understand our cycles,&nbsp;embrace our bodies and enjoy our periods.<br>Together.<\/p>",
+              "width": "100%",
+              "alignment": "center",
+              "align_text": "center"
+            }
+          },
+          "1540899004600": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "1540899010759": {
+            "type": "text",
+            "settings": {
+              "title": "What we created",
+              "text": "<p>We deliver tailor-made subscription boxes for your period&nbsp;to create experiences. Design your box, customise the product inside, schedule the delivery, receive your own Aura box at your doorstep right before your period starts and enjoy the chosen products, hand picked treats, and a portion of knowledge,&nbsp;inspiration and joy!&nbsp;<br><br>We are also your safe space where&nbsp;we come together and support each other, we provide expert advice and life changing knowledge, tips and guidance.<br><br>Try your first Aura box, schedule your subscription, find support and answers to your questions on our forum, get expert advice or visit our store, and see how your period starts becoming a very special experience!<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
           "1538498712193": {
             "type": "text",
             "settings": {
-              "title": "Talk about your brand",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
+              "title": "Why we started",
+              "text": "<p>We love bringing to life ideas that change people's lives. When we realised how little support women received to make their menstruation feel better, we stepped on this journey for all of us to live a healthier and happier cycle.&nbsp;<br><br>Limited product options, hassle, no menstrual education, female health risks, stigma, loneliness, unpleasant periods - all of this has to be changed.<br>Let's make every girl feel free, confindent and happy every day of the month! Let's do it, because there is nothing we can't do together.<\/p>",
               "width": "50%",
               "alignment": "center",
               "align_text": "left"
@@ -316,26 +347,78 @@
           "1538498720830": {
             "type": "image",
             "settings": {
-              "image": "",
+              "image": "shopify:\/\/shop_images\/jean-gerber-42024_copy.jpg",
               "width": "50%",
               "alignment": "center"
             }
           },
-          "1538498742807": {
+          "1540882475254": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/joey-thompson-63366-unsplash_copy.jpg",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "1540882478187": {
             "type": "text",
             "settings": {
-              "title": "Talk about your brand",
-              "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>",
-              "width": "100%",
+              "title": "Made for You and Your Period",
+              "text": "<p>This is all for you, to transform your period experience. We are here for all of you: life lovers, unstoppable explorers,&nbsp;caring mothers, hard workers, inspired creators, youthful girls, change seekers, loving girlfriends, restless souls.<br><br>We are all different, our bodies and souls are different, our periods are different too. We understand that and we understand you, this is why Aura is your&nbsp;personal&nbsp;space for a better period. No matter how different we are, every period is a gift and every menstruator is a hero!<\/p>",
+              "width": "50%",
               "alignment": "center",
-              "align_text": "center"
+              "align_text": "left"
+            }
+          },
+          "1540882481279": {
+            "type": "text",
+            "settings": {
+              "title": "Our Story",
+              "text": "<p>Aura was born in 2018 when I felt that something about my female self was not right, I realised it was because of my period, which I only hoped to be over quickly. It was a source of worry, I didn't enjoy any of it, I was not happy with the products and the stores, I was down. And I knew I was not alone, so many of us feel the same. I thought is there something I can do about it? And I created Aura. For all of us, for every period to become special.<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1540882483948": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/44996488_263062804403877_8968843770858569728_n.jpg",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "1540882488324": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/jamakassi-592666-unsplash.jpg",
+              "width": "50%",
+              "alignment": "center"
+            }
+          },
+          "1540882491318": {
+            "type": "text",
+            "settings": {
+              "title": "Our Promise to You",
+              "text": "<p>We want to be your one solution for intimate hygiene and period related needs. We will do everything we can to make your most sensible days of the month feel better, make your period a special experience full of joy, confidence and freedom. We will provide you the best products, the nicest surprises, valuable knowledge, a caring community and expert advice. We will be there with you so you are never again alone in this, you can count on us when you feel down and we will cheer with you when you feel high as the stars!&nbsp;<\/p>",
+              "width": "50%",
+              "alignment": "center",
+              "align_text": "left"
             }
           }
         },
         "block_order": [
+          "1538498742807",
+          "1540899004600",
+          "1540899010759",
           "1538498712193",
           "1538498720830",
-          "1538498742807"
+          "1540882475254",
+          "1540882478187",
+          "1540882481279",
+          "1540882483948",
+          "1540882488324",
+          "1540882491318"
         ],
         "settings": {
           "title": ""
@@ -508,11 +591,85 @@
           "show_vendor": false,
           "show_view_all": true
         }
+      },
+      "custom-collections-shop1": {
+        "type": "custom-collections-shop1",
+        "settings": {
+          "title": "",
+          "collection": "shop-add-on",
+          "grid": 4,
+          "rows": 5,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "hero-about": {
+        "type": "hero-about",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screen_Shot_2018-10-05_at_13.22.36.png",
+          "alignment": "bottom",
+          "title": "This is who we are",
+          "text": "<p>Our purpose. <br>Our vision of how every woman should feel. <br>Our values that we bring into everything we do, every day.<\/p>",
+          "hero_size": "large",
+          "text_size": "large",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "newsletter": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "Subscribe to our newsletter",
+          "subheading": "A short sentence describing what someone will receive by subscribing",
+          "show_background": true
+        }
+      },
+      "1540966980110": {
+        "type": "hero-about",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group1.png",
+          "alignment": "center",
+          "title": "",
+          "text": "",
+          "hero_size": "large",
+          "text_size": "medium",
+          "button_label": "Try Now!",
+          "button_link": "shopify:\/\/pages\/design-your-box"
+        }
+      },
+      "1540972145502": {
+        "type": "hero-about",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Group_2.png",
+          "alignment": "center",
+          "title": "We deserve it",
+          "text": "<p>Aura is here to change the experience of the period forever.&nbsp;<br>We bring you variety of the best products for your&nbsp;menstruation and deliver them to your doorstep in a beautiful box together with hand-picked&nbsp;treats, valuable learnings, uplifting support&nbsp;and a burst of motivation and excitement, all of this tailor made for you and your period.&nbsp;<br>Because you deserve it.<\/p>",
+          "hero_size": "medium",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1540972304102": {
+        "type": "hero-about",
+        "settings": {
+          "image": "",
+          "alignment": "center",
+          "title": "",
+          "text": "",
+          "hero_size": "small",
+          "text_size": "medium",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
       "hero",
+      "1540972145502",
       "feature-row",
+      "1540966980110",
+      "1540972304102",
       "featured-collections",
       "slideshow",
       "1538148722141",

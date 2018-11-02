@@ -1,3 +1,5 @@
+{%- include 'bold-ro' -%}
+{%- include 'bold-product' with product, hide_action: 'break', output: 'none' -%}
 <div class="product-template__container page-width" id="ProductSection-{{ section.id }}" data-section-id="{{ section.id }}" data-section-type="product" data-enable-history-state="true">
   {% comment %}
     Get first variant, or deep linked one
@@ -170,7 +172,8 @@
                 </div>
               {% endif %}
               <div class="product-form__item product-form__item--submit{% if section.settings.enable_payment_button %} product-form__item--payment-button{% endif %}{% if product.has_only_default_variant %} product-form__item--no-variants{% endif %}">
-                  <button onclick="location.href='http://aurabox.co';" style="margin-top: 50px;" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if section.settings.enable_payment_button %} btn--secondary-accent{% endif %}">
+{{ bold_ro_widget }}
+                  <button style="margin-top: 50px;" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if section.settings.enable_payment_button %} btn--secondary-accent{% endif %}">
                     <span id="AddToCartText-{{ section.id }}">
                       {% unless current_variant.available %}
                         {{ 'products.product.sold_out' | t }}
@@ -232,6 +235,7 @@
                       {% endunless %}
                     </span>
                   </button>
+<!-- bold-ro-liquid --><div class="bold_add_to_orders" style="display: inline-block;"></div><!-- bold-ro-liquid -->
                 {% if section.settings.enable_payment_button %}
                   {{ form | payment_button }}
                 {% endif %}
@@ -263,7 +267,7 @@
 
 {% unless product == empty %}
   <script type="application/json" id="ProductJson-{{ section.id }}">
-    {{ product | json }}
+    {%- include 'bold-product', output: 'json' -%}
   </script>
 {% endunless %}
 

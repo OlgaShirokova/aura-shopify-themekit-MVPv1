@@ -1,3 +1,4 @@
+{%- include 'bold-cart' -%}
 <div class="page-width" data-section-id="{{ section.id }}" data-section-type="cart-template">
 
   {% if cart.item_count > 0 %}
@@ -15,6 +16,7 @@
         </thead>
         <tbody>
           {% for item in cart.items %}
+{%- include 'bold-cart-item' with item -%}
             <tr class="cart__row border-bottom line{{ forloop.index }} cart-flex{% if forloop.first %} border-top{% endif %}">
               <td class="cart__image-wrapper cart-flex-item">
                 <a href="{{ item.url | within: collections.all }}">
@@ -48,9 +50,12 @@
                     - http://docs.shopify.com/support/your-store/products/how-do-I-collect-additional-information-on-the-product-page-Like-for-a-monogram-engraving-or-customization
                 {% endcomment %}
                 {%- assign property_size = item.properties | size -%}
+{{ bold_recurring_desc }}
                 {% if property_size > 0 %}
                   <div class="cart__meta-text">
-                    {% for p in item.properties %}
+                    
+{%- comment -%}
+{% for p in item.properties %}
                       {% unless p.last == blank %}
                         {{ p.first }}:
 
@@ -64,6 +69,8 @@
                         {% endif %}
                       {% endunless %}
                     {% endfor %}
+{%- endcomment -%}
+{{ bold_item_properties }}
                   </div>
                 {% endif %}
 
@@ -72,7 +79,7 @@
                 </p>
               </td>
               <td class="cart__price-wrapper cart-flex-item">
-                {{ item.price | money }}
+                {{ bold_item_price | money }}
 
                 {% for discount in item.discounts %}
                   <div class="cart-item__discount medium-up--hide">{{ discount.title }}</div>
@@ -94,12 +101,12 @@
                 <input type="submit" name="update" class="btn btn--small cart__update medium-up--hide" value="{{ 'cart.general.update' | t }}">
               </td>
               <td class="text-right small--hide">
-                {% if item.original_line_price != item.line_price %}
+                {% if item.original_line_price != bold_item_line_price %}
                   <div class="cart-item__original-price"><s>{{ item.original_line_price | money }}</s></div>
                 {% endif %}
 
                 <div>
-                  {{ item.line_price | money }}
+                  {{ bold_item_line_price | money }}
                 </div>
 
                 {% for discount in item.discounts %}
@@ -122,7 +129,7 @@
           <div class="grid__item text-right small--text-center{% if section.settings.cart_notes_enable %} medium-up--one-half{% endif %}">
             <div>
               <span class="cart__subtotal-title">{{ 'cart.general.subtotal' | t }}</span>
-              <span class="cart__subtotal">{{ cart.total_price | money }}</span>
+              <span class="cart__subtotal">{{ bold_cart_total_price | money }}</span>
             </div>
             {% if cart.total_discounts > 0 %}
               <div class="cart__savings">
@@ -133,8 +140,9 @@
             <div class="cart__shipping">{{ 'cart.general.shipping_at_checkout' | t }}</div>
             <a href="collections/all" class="btn btn--secondary cart__update cart__continue--large small--hide" >{{ 'cart.general.continue_shopping' | t }}</a>
             <input type="submit" name="update" class="btn btn--secondary cart__update cart__update--large small--hide" value="{{ 'cart.general.update' | t }}">
-            <input type="submit" name="checkout" class="btn btn--small-wide" value="{{ 'cart.general.checkout' | t }}">
-            {% if additional_checkout_buttons %}
+            {{ bold_ro_cart }}
+<input type="submit" name="checkout" class="btn btn--small-wide" value="{{ 'cart.general.checkout' | t }}">
+            {% if show_paypal and additional_checkout_buttons %}
               <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
             {% endif %}
           </div>
