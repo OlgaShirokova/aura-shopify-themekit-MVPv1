@@ -68,7 +68,7 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/inma-ibanez-67329_light2.jpeg",
+          "image": "shopify:\/\/shop_images\/Web_-_Home-02.jpg",
           "alignment": "center",
           "title": "Let's make your period a special experience",
           "text": "<p>We bring girls freedom, confidence and joy every day of the cycle.<\/p>\n<p><\/p>\n<p>Design your&nbsp;personal period box today and feel how Aura transforms your period!<\/p>",
@@ -126,6 +126,7 @@
       },
       "feature-row": {
         "type": "feature-row",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
           "layout": "left",
@@ -627,7 +628,7 @@
       "1540966980110": {
         "type": "hero-about",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Group1.png",
+          "image": "shopify:\/\/shop_images\/Steps6.png",
           "alignment": "center",
           "title": "",
           "text": "",
@@ -639,8 +640,9 @@
       },
       "1540972145502": {
         "type": "hero-about",
+        "disabled": true,
         "settings": {
-          "image": "shopify:\/\/shop_images\/Group_2.png",
+          "image": "shopify:\/\/shop_images\/Group_2_a9617c8d-2275-446e-89ab-b5f6c3acbc44.png",
           "alignment": "center",
           "title": "We deserve it",
           "text": "<p>Aura is here to change the experience of the period forever.&nbsp;<br>We bring you variety of the best products for your&nbsp;menstruation and deliver them to your doorstep in a beautiful box together with hand-picked&nbsp;treats, valuable learnings, uplifting support&nbsp;and a burst of motivation and excitement, all of this tailor made for you and your period.&nbsp;<br>Because you deserve it.<\/p>",
@@ -652,6 +654,7 @@
       },
       "1540972304102": {
         "type": "hero-about",
+        "disabled": true,
         "settings": {
           "image": "",
           "alignment": "center",
@@ -662,18 +665,102 @@
           "button_label": "",
           "button_link": ""
         }
+      },
+      "1541392864325": {
+        "type": "image-bar",
+        "blocks": {
+          "1541392864325-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Icons-111.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1541392864325-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Icons-2_83cd668c-e30a-4040-914d-f1616bf52c41.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1541392864325-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Icons-3_d7692c30-c2c6-4ffb-ad64-7ed8a61f89ee.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1541392864325-0",
+          "1541392864325-1",
+          "1541392864325-2"
+        ],
+        "settings": {
+          "section_height": "x-small"
+        }
+      },
+      "1541424243404": {
+        "type": "image-bar",
+        "blocks": {
+          "1541424243404-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2018-11-05_at_18.43.01.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          },
+          "1541424243404-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Screenshot_2018-11-05_at_18.42.51.png",
+              "alignment": "center",
+              "link": "",
+              "cta_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "1541424243404-0",
+          "1541424243404-1"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "1541433254311": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Box2.png",
+          "layout": "left",
+          "title": "We deserve it",
+          "text": "<p>Aura is here to change the experience of the period forever.&nbsp;<br>We bring you variety of the best products for your&nbsp;menstruation and deliver them to your doorstep in a beautiful box together with hand-picked&nbsp;treats, valuable learnings, uplifting support&nbsp;and a burst of motivation and excitement, all of this tailor made for you and your period.&nbsp;<br>Because you deserve it.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
       }
     },
     "content_for_index": [
       "hero",
+      "1541433254311",
       "1540972145502",
-      "feature-row",
       "1540966980110",
+      "feature-row",
+      "1541392864325",
       "1540972304102",
       "featured-collections",
       "slideshow",
       "1538148722141",
-      "1538148755753"
+      "1538148755753",
+      "1541424243404"
     ]
   },
   "presets": {

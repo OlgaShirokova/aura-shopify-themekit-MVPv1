@@ -1222,10 +1222,23 @@ html {
 .main-content {
   display: block;
   padding-top: $section-spacing-small;
+  background-image: url(https://i.imgur.com/lU1mas7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 
   @include media-query($medium-up) {
     padding-top: $section-spacing;
   }
+}
+
+#MainContent h1 {
+  margin-bottom: 30px;
+}
+
+#PageContainer {
+  background-image: url(https://i.imgur.com/q5nYXdc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .section-header {
@@ -2416,53 +2429,78 @@ textarea {
   padding-right: 5%;
 
   @include media-query($small) {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
-#shopify-section-1540972145502 .page-width {
-  padding-left: 0;
-  padding-right: 13%;
-  width: 100%;
-
-  @include media-query($small) {
-    padding-left: 0;
-    padding-right: 0;
-  }
+#shopify-section-1541433254311 {
+  background-color: #DBDFE2;
+  margin-top: -60px;
+  margin-bottom: -60px;
 }
 
-#shopify-section-1540972145502 .page-width div {
-  padding-left: 0;
-  padding-right: 0;
+#shopify-section-1541433254311 h2 {
 
-  @include media-query($small) {
-    padding-left: 0;
-    padding-right: 0;
-  }
 }
 
-#shopify-section-1540972145502 .page-width p {
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 60%;
-
-  @include media-query($small) {
-    padding-left: 0;
-    padding-right: 0;
-  }
+#shopify-section-1541433254311 p {
+  font-family: "avenir next";
+  font-size: 90%;
 }
 
-#shopify-section-1540972145502 .page-width h2{
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 57%;
-
-  @include media-query($small) {
-    padding-left: 0;
-    padding-right: 0;
-  }
+#shopify-section-1541433254311 .page-width {
+  padding-left: 0px;
 }
+
+#shopify-section-1540966980110 .btn {
+  margin-top: 500px;
+  border-color: black;
+}
+
+// THIS SECTION IS THE SECOND SECTION WITH STEPS ON THE HOMEPAGE, MODIFICATIONS ARE TO
+// #shopify-section-1540972145502 .page-width {
+//   padding-left: 0;
+//   padding-right: 13%;
+//   width: 100%;
+//
+//   @include media-query($small) {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+// }
+//
+// #shopify-section-1540972145502 .page-width div {
+//   padding-left: 0;
+//   padding-right: 0;
+//
+//   @include media-query($small) {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+// }
+//
+// #shopify-section-1540972145502 .page-width p {
+//   padding-left: 0;
+//   padding-right: 0;
+//   margin-left: 60%;
+//
+//   @include media-query($small) {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+// }
+//
+// #shopify-section-1540972145502 .page-width h2{
+//   padding-left: 0;
+//   padding-right: 0;
+//   margin-left: 57%;
+//
+//   @include media-query($small) {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+// }
 
 .page-container {
   transition: $transition-drawer;
@@ -5381,7 +5419,8 @@ $toolbar-height-small: 46px;
 
   @include media-query($small) {
     order: 2;
-    padding-bottom: 0; // always last element on mobile
+    padding-bottom: 35px; // always last element on mobile - original value is 0!
+    padding-left: 20px;
   }
 }
 
@@ -5785,7 +5824,7 @@ $toolbar-height-small: 46px;
   width: 100%;
 
   .image-bar--x-small & {
-    height: 94px;
+    height: 190px;
   }
 
   .image-bar--small & {
@@ -5806,7 +5845,7 @@ $toolbar-height-small: 46px;
 
   @include media-query($medium-up) {
     .image-bar--x-small & {
-      height: 125px;
+      height: 190px;
     }
 
     .image-bar--small & {
@@ -6021,7 +6060,16 @@ $toolbar-height-small: 46px;
 }
 
 .index-section--newsletter-background {
-  background-color: $color-bg-alt;
+  // background-color: $color-bg-alt;
+  background-image: url("https://i.imgur.com/1Qm0L3f.png");
+  background-size: cover;
+  background-position: right 0;
+  background-repeat: no-repeat;
+
+  @include media-query($small) {
+    background-image: none;
+    background-color: #F8F8F9;
+  }
 }
 
 .rich-text__heading--large {
