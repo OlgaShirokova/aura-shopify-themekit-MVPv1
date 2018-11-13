@@ -1,13 +1,17 @@
 <!-- CUSTOM COLLECTION 5 FOR SHOP WITH ALL THE PRODUCTS PAGE -->
 <div class="page-width">
-  {% if section.settings.title != blank %}
-    <div style="margin-bottom: 0px;" class="section-header text-center">
-      <h2>{{ section.settings.title | escape }}</h2>
-    </div>
-  {% endif %}
 
-  {%- assign collection = collections[section.settings.collection] -%}
-  <div style="text-align:center; padding-bottom:10px;">{{collection.description}}</div>
+  <div style="margin-bottom: 20px; background-color:#FFF4F3;">
+    {% if section.settings.title != blank %}
+      <div style="margin-bottom: 0px; padding-top:10px;" class="section-header text-center">
+        <h2>{{ section.settings.title | escape }}</h2>
+      </div>
+    {% endif %}
+
+    {%- assign collection = collections[section.settings.collection] -%}
+    <div style="text-align:center; padding-bottom:10px;">{{collection.description}}</div>
+  </div>
+
   {% case section.settings.grid %}
     {% when 2 %}
       {%- assign max_height = 530 -%}
