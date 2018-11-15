@@ -1281,6 +1281,15 @@ html {
   background-repeat: no-repeat;
 }
 
+.know-products-page {
+  margin-top: 30px;
+  background-image: url(https://i.imgur.com/wIgNQ55.png);
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: top;
+  background-repeat: no-repeat;
+}
+
 /*================ Typography ================*/
 blockquote {
   font-size: em(18px);
@@ -2486,8 +2495,23 @@ textarea {
 }
 
 #shopify-section-1540966980110 .btn {
-  margin-top: 500px;
+  margin-top: 460px;
   border-color: black;
+
+  @include media-query($small) {
+      margin-bottom: 50px;
+    }
+
+}
+
+.about-section {
+  margin-top: -30px;
+  margin-bottom:-30px;
+
+  @include media-query($small) {
+      margin-top: 30px;
+    }
+
 }
 
 // THIS SECTION IS THE SECOND SECTION WITH STEPS ON THE HOMEPAGE, MODIFICATIONS ARE TO
@@ -5406,7 +5430,7 @@ $toolbar-height-small: 46px;
 
 .feature-row {
   @include display-flexbox();
-  @include justify-content(space-between);
+  @include justify-content(flex-start);
   @include align-items(center);
 
   @include media-query($small) {
@@ -5424,6 +5448,16 @@ $toolbar-height-small: 46px;
   }
 }
 
+.feature-row__item-uneven {
+  @include flex(0 1 30%);
+
+  @include media-query($small) {
+    @include flex(1 1 auto);
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .feature-row__image-wrapper {
   margin: 0 auto $section-spacing-small / 1.8;
   position: relative;
@@ -5433,6 +5467,8 @@ $toolbar-height-small: 46px;
 .feature-row__image {
   display: block;
   margin: 0 auto;
+  flex: 1;
+
 
   .feature-row__image-wrapper & {
     width: 100%;
@@ -5448,6 +5484,7 @@ $toolbar-height-small: 46px;
 .feature-row__text {
   padding-top: $section-spacing-small;
   padding-bottom: $section-spacing-small;
+  flex: 2;
 
   @include media-query($small) {
     order: 2;
@@ -5468,7 +5505,8 @@ $toolbar-height-small: 46px;
 
 @include media-query($medium-up) {
   .featured-row__subtext {
-    font-size: em($font-size-base + 2);
+    font-size: 1em;
+    // previously em($font-size-base + 2)
   }
 }
 
