@@ -2,18 +2,18 @@
   "current": {
     "color_text": "#3d4246",
     "color_body_text": "#69727b",
-    "color_sale_text": "#557b97",
+    "color_sale_text": "#00564e",
     "color_borders": "#e8e9eb",
-    "color_button": "#557b97",
+    "color_button": "#00564e",
     "color_button_text": "#fff",
     "color_small_button": "#fff",
     "color_small_button_text": "#3d4246",
-    "color_text_field": "#fff",
-    "color_text_field_text": "#000",
+    "color_text_field": "#ffffff",
+    "color_text_field_text": "#262626",
     "color_image_overlay_text": "#fff",
     "color_image_overlay": "#3d4246",
     "image_overlay_opacity": 25,
-    "color_body_bg": "#fff",
+    "color_body_bg": "#ffffff",
     "type_header_family": "Google_Montserrat_400_sans",
     "type_header_base_size": 27,
     "type_base_family": "Google_Crimson+Text_400_serif",
@@ -68,7 +68,7 @@
       "hero": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Web_-_Home-02.jpg",
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-11-30_at_16.41.26.png",
           "alignment": "center",
           "title": "Let's make your period a special experience",
           "text": "<p>We bring girls freedom, confidence and joy every day of the cycle.<\/p>\n<p><\/p>\n<p>Design your&nbsp;personal period box today and feel how Aura transforms your period!<\/p>",
@@ -80,6 +80,7 @@
       },
       "slideshow": {
         "type": "slideshow",
+        "disabled": true,
         "blocks": {
           "slideshow-0": {
             "type": "image",
@@ -316,110 +317,10 @@
               "alignment": "center",
               "align_text": "center"
             }
-          },
-          "1540899004600": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
-          "1540899010759": {
-            "type": "text",
-            "settings": {
-              "title": "What we created",
-              "text": "<p>We deliver tailor-made subscription boxes for your period&nbsp;to create experiences. Design your box, customise the product inside, schedule the delivery, receive your own Aura box at your doorstep right before your period starts and enjoy the chosen products, hand picked treats, and a portion of knowledge,&nbsp;inspiration and joy!&nbsp;<br><br>We are also your safe space where&nbsp;we come together and support each other, we provide expert advice and life changing knowledge, tips and guidance.<br><br>Try your first Aura box, schedule your subscription, find support and answers to your questions on our forum, get expert advice or visit our store, and see how your period starts becoming a very special experience!<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
-          "1538498712193": {
-            "type": "text",
-            "settings": {
-              "title": "Why we started",
-              "text": "<p>We love bringing to life ideas that change people's lives. When we realised how little support women received to make their menstruation feel better, we stepped on this journey for all of us to live a healthier and happier cycle.&nbsp;<br><br>Limited product options, hassle, no menstrual education, female health risks, stigma, loneliness, unpleasant periods - all of this has to be changed.<br>Let's make every girl feel free, confindent and happy every day of the month! Let's do it, because there is nothing we can't do together.<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
-          "1538498720830": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/jean-gerber-42024_copy.jpg",
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
-          "1540882475254": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/joey-thompson-63366-unsplash_copy.jpg",
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
-          "1540882478187": {
-            "type": "text",
-            "settings": {
-              "title": "Made for You and Your Period",
-              "text": "<p>This is all for you, to transform your period experience. We are here for all of you: life lovers, unstoppable explorers,&nbsp;caring mothers, hard workers, inspired creators, youthful girls, change seekers, loving girlfriends, restless souls.<br><br>We are all different, our bodies and souls are different, our periods are different too. We understand that and we understand you, this is why Aura is your&nbsp;personal&nbsp;space for a better period. No matter how different we are, every period is a gift and every menstruator is a hero!<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
-          "1540882481279": {
-            "type": "text",
-            "settings": {
-              "title": "Our Story",
-              "text": "<p>Aura was born in 2018 when I felt that something about my female self was not right, I realised it was because of my period, which I only hoped to be over quickly. It was a source of worry, I didn't enjoy any of it, I was not happy with the products and the stores, I was down. And I knew I was not alone, so many of us feel the same. I thought is there something I can do about it? And I created Aura. For all of us, for every period to become special.<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
-          },
-          "1540882483948": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/44996488_263062804403877_8968843770858569728_n.jpg",
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
-          "1540882488324": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/jamakassi-592666-unsplash.jpg",
-              "width": "50%",
-              "alignment": "center"
-            }
-          },
-          "1540882491318": {
-            "type": "text",
-            "settings": {
-              "title": "Our Promise to You",
-              "text": "<p>We want to be your one solution for intimate hygiene and period related needs. We will do everything we can to make your most sensible days of the month feel better, make your period a special experience full of joy, confidence and freedom. We will provide you the best products, the nicest surprises, valuable knowledge, a caring community and expert advice. We will be there with you so you are never again alone in this, you can count on us when you feel down and we will cheer with you when you feel high as the stars!&nbsp;<\/p>",
-              "width": "50%",
-              "alignment": "center",
-              "align_text": "left"
-            }
           }
         },
         "block_order": [
-          "1538498742807",
-          "1540899004600",
-          "1540899010759",
-          "1538498712193",
-          "1538498720830",
-          "1540882475254",
-          "1540882478187",
-          "1540882481279",
-          "1540882483948",
-          "1540882488324",
-          "1540882491318"
+          "1538498742807"
         ],
         "settings": {
           "title": ""
@@ -607,7 +508,7 @@
       "hero-about": {
         "type": "hero-about",
         "settings": {
-          "image": "shopify:\/\/shop_images\/Screen_Shot_2018-10-05_at_13.22.36.png",
+          "image": "shopify:\/\/shop_images\/About_header_croped.jpg",
           "alignment": "bottom",
           "title": "This is who we are",
           "text": "<p>Our purpose. <br>Our vision of how every woman should feel. <br>Our values that we bring into everything we do, every day.<\/p>",
@@ -708,6 +609,7 @@
       },
       "1541424243404": {
         "type": "image-bar",
+        "disabled": true,
         "blocks": {
           "1541424243404-0": {
             "type": "image",
@@ -742,9 +644,175 @@
           "image": "shopify:\/\/shop_images\/Box2.png",
           "layout": "left",
           "title": "We deserve it",
-          "text": "<p>Aura is here to change the experience of the period forever.&nbsp;<br>We bring you variety of the best products for your&nbsp;menstruation and deliver them to your doorstep in a beautiful box together with hand-picked&nbsp;treats, valuable learnings, uplifting support&nbsp;and a burst of motivation and excitement, all of this tailor made for you and your period.&nbsp;<br>Because you deserve it.<\/p>",
+          "text": "<p><br><strong>Aura is here to change the experience of the period forever.<\/strong><br>&nbsp;<br>We bring you variety of the best products for your menstruation and deliver them to your doorstep in a beautiful box together with hand-picked&nbsp;treats, valuable learnings, uplifting support&nbsp;and a burst of motivation and excitement, all of this tailor made for you and your period.&nbsp;<br><br><strong>Because you deserve it.<\/strong><\/p>",
           "button_label": "",
           "button_link": ""
+        }
+      },
+      "custom-feature-row1": {
+        "type": "custom-feature-row1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard_d4e1dba0-f0e1-4f27-93ad-063f276d7208.png",
+          "layout": "left",
+          "title": "Always - Pads",
+          "text": "<p>Aways is a brand of the consumer product multinational Procter&amp;Gamble based in the US. Since 1983 Always is widely used by women in many countries, including US, UK and others. Always pads are known for being comfortable, reliable and universal. The pads are made from the same ingredients as most other feminine care products on the market. These ingredients are proven and completely safe for use in feminine products. There are synthetic components in Always pads that have been extensively reviewed by physicians, scientists and health authorities and determined to be safe. This brand follows the requirements of the US market, where pads are medical devices and are required to meet the safety expectations of the U.S. Food and Drug Administration (FDA).&nbsp;<\/p>\n<p><\/p>\n<p><strong>Always Ultra pads have the following characteristics:<\/strong><br>&bull; Neutralize odor Stay well adjusted to panties <br>&bull;Use own technology to improve protection <br>&bull; Are comfortable for wearing<br>&bull; Soft touch <br>&bull; Main complaints: related to protection and breaking when trying to remove the pad from the panties<\/p>\n<p><\/p>\n<p><strong>Always Ultra pads are purified using an elemental chlorine-free purification process and contain the following ingredients:<br><\/strong>&bull; Top Sheet: Polyolefins (also used in clothing) with&nbsp;petrolatum and zinc oxide (also used&nbsp;in skin lotions)<br>&bull; Absorbent Core: Wood cellulose&nbsp;with&nbsp;absorbent gel, rayon, or polyester <br>&bull; Back Sheet: Polyolefins (also used in clothing) <br>&bull; Adhesives: Food additive adhesive (similar to craft glue sticks) <br>&bull; Wrapper: Printed polyolefin&nbsp;(also used in clothing) and paper<br>&bull; Wing paper: Printed paper<\/p>\n<p><\/p>\n<p>Always is a brand very well known and trusted all over the world. Making a conclusion out of numerous reviews the general impression of Always pads is good, they meet women&rsquo;s expectations and do their job nicely. Note that this product is not biodegradable and does contain chemical elements, which may or may not&nbsp;grant additional protection and flexibility.<\/p>\n<p><\/p>\n<p><strong>We recommend Always pads to women who look for a universal, comfortable and reliable solution widely used around the world, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row2": {
+        "type": "custom-feature-row2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard2.png",
+          "layout": "left",
+          "title": "Evax - Pads",
+          "text": "<p>Evax is a brand of the consumer product multinational Procter&amp;Gamble based in the US. Since 1968 Evax is widely used by women in its focus market, Spain. Evax pads are known for being reliable, soft and universal. The pads are made from the same ingredients as most other feminine care products on the market. These ingredients are proven and completely safe for use in feminine products. There are synthetic components in Evax pads that have been extensively reviewed by physicians, scientists and health authorities and determined to be safe. All their products go through a rigorous safety evaluation and dermatological tests to ensure they can be used safely and should not cause skin irritation or an allergic reaction, don't affect the intimate pH or microflora, and don't increase the risk of infections. Evax production processes follow the international standard&nbsp;ISO 9001.<\/p>\n<p><\/p>\n<p><strong>Evax Cottonlike pads have the following characteristics:<br><\/strong>&bull; Neutralize odor Delicate protection <br>&bull; Stay well adjusted to panties<br>&bull; Use own technology to improve protection <br>&bull; Soft touch<br>&bull; Main complaints: related to protection, comfort and sensation of wearing<\/p>\n<p><\/p>\n<p><strong>Evax Cottonlike pads are purified using an elemental chlorine-free purification process and contain the following ingredients:<br><\/strong>&bull; Top Sheet: Polyolefins (like those used in clothing)&nbsp;<br>&bull; Absorbent Core: Wood cellulose&nbsp;with&nbsp;absorbent gel, rayon, or polyester <br>&bull; Back Sheet: Polyolefins (like those used in clothing) <br>&bull; Adhesives: Food additive adhesive (similar to craft glue sticks)<br>&bull; Wrapper: Printed polyolefin&nbsp;(like that used in clothing)<br>&bull; Wing paper: Printed paper<\/p>\n<p><\/p>\n<p>Evax is a brand very well known and trusted in Spain. Making a conclusion out of numerous reviews the general impression of Always pads is good, they meet women&rsquo;s expectations and make them feel good. Note that this product is not biodegradable and does contain chemical elements, which may or may not grant additional protection and flexibility.<\/p>\n<p><\/p>\n<p><strong>We recommend Evax pads to women who look for a universal, soft and reliable solution widely used in the region, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row3": {
+        "type": "custom-feature-row3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard5.png",
+          "layout": "left",
+          "title": "Farmaconfort - Pads and Tampons",
+          "text": "<p>Farmaconfort is a brand developed in Spain and specialising on development and manufacturing of female hygiene products made from pure natural cotton fibres. Their own advanced technologies and knowledge is being used to produce all natural products with natural benefits of pure cotton. Farmaconfort tampons and pads are loved for being ecological, sustainable, comfortable and soft. All Farmaconfort organic products have ISO 9001:2002 and ISO 13485 certificates and have the National Pharmacy Code. Their products have been also tested as Hypoallergenic &lsquo;non irritant&rsquo; by external labs and are said to reduce the risks of irritation and allergy. Farmaconfort products are also 100% biodegradable and their manufacturing process is beneficial for the planet due to the positive impact of cotton plantations.<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Pads have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly<br>&bull; Soft touch <br>&bull; Reliable and strongly absorbent <br>&bull; Thin and discreet <br>&bull; Main complaints: related to adherence to panties and comfort<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Pads are purified using an elemental chlorine- and dioxin-free purification process and contain the following ingredients:<br><\/strong>&bull; Absorbent Core: 100% Pure Certified Organic Cotton <br>&bull; Coversheet: Cotton, non-woven, with special interlace to stop fibres sticking on your skin <br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Tampons have the following characteristics:<br>&bull;&nbsp;<\/strong>Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Reliable and strongly absorbent &bull; Compact size <br>&bull; Main complaints: related to fragile individual packaging and extra high absorption<\/p>\n<p><\/p>\n<p><strong>Farmaconfort Tampons are purified using an elemental chlorine- and dioxin-free purification process, are free of viscose and rayon and contain the following ingredients:<br><\/strong>&bull; Absorbent Core: 100% Pure Certified Organic Cotton <br>&bull; Security veil: Cotton, stops the fibres sticking inside women&rsquo;s body <br>&bull; Applicator: 100% biodegradable cardboard <br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p>Farmaconfort is a modern, innovative and sustainable brand. Making a conclusion out of numerous reviews the general impression of Farmaconfort tampons and pads is very good, they are healthy, comfortable, reliable and take care of the environment. These products are 100% biodegradable, sustainable and ecological. Gynaecologists, midwives and obstetricians recommend the use of natural cotton products for your intimate hygiene and female health.<\/p>\n<p><\/p>\n<p><strong>We recommend Farmaconfort pads and tampons to women who look for an ecological, sustainable, locally produced, soft and efficient solution, those who take care of their intimate health and want an extra healthy solution, and especially those women with sensibility or allergy and irritation tendency.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row4": {
+        "type": "custom-feature-row4",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard4.png",
+          "layout": "left",
+          "title": "Masmi - Pads and Tampons",
+          "text": "<p>Masmi is a brand developed in Spain and specialising on development and manufacturing of female hygiene products made from pure natural cotton fibres. Their own advanced technologies and knowledge is being used to produce all natural products with natural benefits of pure cotton. Masmi tampons and pads are loved for being ecological, sustainable, comfortable and soft. All Masmi organic products have been certified by ICEA&nbsp;(Environmental and Ethical Certification Institute), GOTS&nbsp;(Global Organic Standard) and ISO 9001:2008. Their products have been also tested as Hypoallergenic &lsquo;non irritant&rsquo; by external labs and are said to reduce the risks of irritation and allergy. Masmi products are also 100% biodegradable and their manufacturing process is beneficial for the planet due to the positive impact of cotton plantations.<\/p>\n<p><\/p>\n<p><strong>Masmi Pads have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Comfortable to use <br>&bull; Thin and flexible <br>&bull; Main complaints: related to adherence to panties and reliability with strong flow<\/p>\n<p><\/p>\n<p><strong>Masmi Pads are purified using an elemental chlorine- and dioxin-free purification process and contain the following ingredients:<br><\/strong>&bull; Absorbent Core: 100% Pure Certified Organic Cotton<br>&bull; Coversheet: Cotton, non-woven, with special interlace to stop fibres sticking on your skin<br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p><strong>Masmi Tampons have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Comfortable to use <br>&bull; Compact size <br>&bull; Main complaints: related to reliability with strong flow and ease of introduction<\/p>\n<p><\/p>\n<p><strong>Masmi Tampons are purified using an elemental chlorine- and dioxin-free purification process, are free of viscose and rayon and contain the following ingredients:<br>&bull;&nbsp;<\/strong>Absorbent Core: 100% Pure Certified Organic Cotton <br>&bull; Security veil: Cotton, stops the fibres sticking inside women&rsquo;s body <br>&bull; Perfume and superabsorbent free<\/p>\n<p><\/p>\n<p>Masmi is a young, innovative and sustainable brand. Making a conclusion out of numerous reviews the general impression of Masmi tampons and pads is very good, they are healthy, comfortable, reliable and take care of the environment. These products are 100% biodegradable, sustainable and ecological. Gynaecologists, midwives and obstetricians recommend the use of natural cotton products for your intimate hygiene and female health.<\/p>\n<p><\/p>\n<p><strong>We recommend Masmi pads and tampons to women who look for an ecological, sustainable, locally produced, soft and efficient solution, those who take care of their intimate health and want an extra healthy solution, and especially those women with sensibility or allergy and irritation tendency.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row5": {
+        "type": "custom-feature-row5",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard6.png",
+          "layout": "left",
+          "title": "Naty - Pads and Tampons",
+          "text": "<p>Naty is a brand developed in Sweden and specialising on development and manufacturing of diapers and female hygiene products made from natural, ecological and renewable materials. Naty tampons and pads are loved for being ecological, sustainable, comfortable and soft. Eco by Naty&rsquo;s deliver ecological products without petroleum-based plastics or synthetic fibers against your skin. Fully natural, renewable and free from chemicals that can irritate sensitive pH balances, pads and tampons are designed to work in harmony with one&rsquo;s body and the environment. Their femcare line is certified by Vincotte, an independent, international certification organization specialised in renewability of raw materials, and is certified for the renewability of its products in accordance with ASTM D6866. It also applies both European and North American standards. Their tampons are also GOTS and ICEA certified.<\/p>\n<p><\/p>\n<p><strong>Naty Pads have the following characteristics:<br><\/strong>&bull;<strong>&nbsp;<\/strong>Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly<br>&bull; Cloth-like feel <br>&bull; Reliable and strongly absorbent &bull; Thin and discreet <br>&bull; Main complaints: related to smaller size and comfort<\/p>\n<p><\/p>\n<p><strong>Naty Pads are purified using an elemental chlorine- and dioxin-free purification process and contain the following ingredients:<br>&bull;&nbsp;<\/strong>Viscose: Totally Chlorine Free (TCF) Pulp, no binders, 100% compostable <br>&bull; Absorbent core: chlorine free pulp, no binders, 100% biodegradable<br>&bull; Acquisition layer: chlorine free pulp, 100% biodegradable <br>&bull; Back Sheet: natural cornstarch film, 100% compostable <br>&bull; Individual packaging: LDPE plastic, recyclable <br>&bull; External box: FSC certified cardboard <br>&bull; Free of perfume, oil based superabsorbent, latex and chemicals<\/p>\n<p><\/p>\n<p><strong>Naty Tampons have the following characteristics:<br><\/strong>&bull; Ecological, organic and hypoallergenic <br>&bull; Sustainable and eco-friendly <br>&bull; Soft touch <br>&bull; Reliable and strongly absorbent <br>&bull; Compact size <br>&bull; Main complaints: related to introduction difficulties and reliability with strong flow<\/p>\n<p><\/p>\n<p><strong>Naty Tampons are purified using an elemental chlorine- and dioxin-free purification process, are free of viscose and rayon and contain the following ingredients:<br><\/strong>&bull;<strong>&nbsp;<\/strong>Absorbent Core: 100% organic cotton <br>&bull; Applicator: 100% recycled cardboard <br>&bull; Individual packaging: paper-based <br>&bull; External box: FSC certified cardboard <br>&bull; Free of perfume, oil based superabsorbent, latex and chemicals<\/p>\n<p><\/p>\n<p>Naty is a modern, innovative and sustainable brand. Making a conclusion out of numerous reviews the general impression of Naty tampons and pads is very good, they are healthy, comfortable, reliable and take care of the environment. These products are 100% compostable, sustainable and ecological.<\/p>\n<p><\/p>\n<p><strong>We recommend Naty pads and tampons to women who look for an ecological, sustainable, responsible, soft and efficient solution, to those who take care of their intimate health and want an extra healthy solution, and especially to those women with sensibility or allergy and irritation tendency.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row6": {
+        "type": "custom-feature-row6",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard1.png",
+          "layout": "left",
+          "title": "o.b. - Tampons",
+          "text": "<p>o.b. is a brand of the multinational Johnson&amp;Johnson based in the US and producing pharmaceutical, medical and beauty products. Since 1960s o.b. is widely used by women in countries such as the US, European countries and Russia. o.b. tampons are known for being reliable, soft and comfortable. The tampons are made from the same ingredients as most other feminine care products on the market. These ingredients are proven and completely safe for use in feminine products. There are synthetic components in o.b. tampons that have been extensively reviewed by physicians, scientists and health authorities and determined to be safe. All their products go through a rigorous safety evaluation to ensure they can be used safely and should not cause skin irritation or an allergic reaction.&nbsp;<\/p>\n<p><\/p>\n<p><strong>o.b. tampons with and without applicator have the following characteristics:<br><\/strong>&bull; Use own technology for improves protection <br>&bull; Soft touch <br>&bull; Reliability and strong materials<br>&bull; Easy to use <br>&bull; Main complaints: related to protection and absence of applicator in o.b. ProComfort Series<\/p>\n<p><\/p>\n<p><strong>o.b. tampons are purified using an elemental chlorine-free purification process and contain the following ingredients:<\/strong><\/p>\n<p>o.b.&reg; tampons are made of two types of rayon and a polyester string The cover for o.b. Original is made of polyester\/polyethylene non-woven material The cover of o.b. ProComfort is made of polyethylene\/polypropylene film<\/p>\n<p><\/p>\n<p>o.b. is a brand very well known and trusted across the world. Making a conclusion out of numerous reviews the general impression of o.b. tampons is very good, they make women feel good and do their job well. Note that this product is not biodegradable and does contain chemical elements, which may or may not grant additional protection and flexibility. Johnson&amp;Johnson is implementing measures for environment friendliness, 90% their of raw materials used for o.b. tampons come from renewable resources.<\/p>\n<p><\/p>\n<p><strong>We recommend o.b. pads to women who look for a soft, reliable and efficient solution, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "custom-feature-row7": {
+        "type": "custom-feature-row7",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Artboard3.png",
+          "layout": "left",
+          "title": "Tampax - Tampons",
+          "text": "<p>Tampax is a brand of the consumer product multinational Procter&amp;Gamble based in the US. Since 1931 Always is widely used by women in over 100 countries. Tampax tampons are known for being universal and reliable. The tampons are made from the same materials as most other feminine care products on the market, the primary ingredients used include purified cotton (plant-based ingredient treated for usage) and rayon (manufactured&nbsp;fiber&nbsp;made from regenerated&nbsp;cellulose fiber). All ingredients are accepted by physicians, scientists and health authorities, proven and completely safe for use in feminine products,<\/p>\n<p><\/p>\n<p><strong>Tampax Compak Pearl tampons have the following characteristics:<br><\/strong>&bull; Use own technology to improve protection <br>&bull; Easy introduction <br>&bull; Comfortably expand inside <br>&bull; Soft touch <br>&bull; Main complains: related to applicator and breaking after long use<\/p>\n<p><\/p>\n<p><strong>Tampax Compak Pearl tampons are purified using an elemental chlorine-free purification process and contain the following ingredients:<br><\/strong>&bull; Applicator: Plastic with pigments for color <br>&bull; Absorbent Core: Cotton and\/or Rayon of varying levels optimized for performance <br>&bull; Thin Fabric around Absorbent Core: Polyethylene and Polypropylene <br>&bull; String: Cotton with Polypropylene <br>&bull; Braid Thread: Polyester<\/p>\n<p><\/p>\n<p>Tampax is a brand very well known and trusted all over the world. Making a conclusion out of numerous reviews the general impression of Tampax tampons is good, they meet women&rsquo;s expectations and do their job nicely. Note that this product is not ecological, it cannot be recycled or flushed and it contains chemical elements, which may or may not grant additional protection.<\/p>\n<p><\/p>\n<p><strong>We recommend Tampax tampons to women who look for a universal, comfortable and reliable solution widely used around the world, and who don&rsquo;t experience issues with sensibility of their intimate area.<\/strong><\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about1": {
+        "type": "feature-row-about1",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/Screenshot_2018-10-30_at_17.04.18.png",
+          "layout": "left",
+          "title": "What we created",
+          "text": "<p>We deliver tailor-made subscription boxes for your period&nbsp;to create experiences. Design your box, customise the products inside, schedule the delivery, receive your own Aura box at your doorstep right before your period starts and enjoy the chosen products, hand picked treats, and a portion of knowledge,&nbsp;inspiration and joy!&nbsp;<br><br>We are also your safe space where&nbsp;we come together and support each other, we provide expert advice and life changing knowledge, tips and guidance.<br><br>Try your first Aura box, schedule your subscription, find support and answers to your questions on our forum, get expert advice or visit our store, and see how your period starts becoming a very special experience!<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about2": {
+        "type": "feature-row-about2",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/jean-gerber-42024_copy.jpg",
+          "layout": "right",
+          "title": "Why we started",
+          "text": "<p>We love bringing to life ideas that change people's lives. When we realised how little support women received to make their menstruation feel better, we stepped on this journey for all of us to live a healthier and happier cycle.&nbsp;<br><br>Limited product options, hassle, no menstrual education, female health risks, stigma, loneliness, unpleasant periods - all of this has to be changed.<br><br>Let's make every girl feel free, confindent and happy every day of the month! Let's do it, because there is nothing we can't do together.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about3": {
+        "type": "feature-row-about3",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/joey-thompson-63366-unsplash_copy.jpg",
+          "layout": "left",
+          "title": "Made for You and Your Period",
+          "text": "<p>This is all for you, to transform your period experience. We are here for all of you: life lovers, unstoppable explorers,&nbsp;caring mothers, hard workers, inspired creators, youthful girls, change seekers, loving girlfriends, restless souls.<br><br>We are all different, our bodies and souls are different, our periods are different too. We understand that and we understand you, this is why Aura is your&nbsp;personal&nbsp;space for a better period. No matter how different we are, every period is a gift and every menstruator is a hero!<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about4": {
+        "type": "feature-row-about4",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/44996488_263062804403877_8968843770858569728_n.jpg",
+          "layout": "right",
+          "title": "Our Story",
+          "text": "<p>Aura was born in 2018 when I felt that something about my female self was not right, I realised it was because of my period, which I only hoped to be over quickly. It was a source of worry, I didn't enjoy any of it, I was not happy with the products and the stores, I was down. And I knew I was not alone, so many of us feel the same. I thought is there something I can do about it? And I created Aura. For all of us, for every period to become special.<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "feature-row-about5": {
+        "type": "feature-row-about5",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/jamakassi-592666-unsplash.jpg",
+          "layout": "left",
+          "title": "Our Promise to You",
+          "text": "<p>We want to be your one solution for intimate hygiene and period related needs. We will do everything we can to make your most sensible days of the month feel better, make your period a special experience full of joy, confidence and freedom. We will provide you the best products, the nicest surprises, valuable knowledge, a caring community and expert advice. We will be there with you so you are never again alone in this, you can count on us when you feel down and we will cheer with you when you feel high as the stars!&nbsp;<\/p>",
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "1543829456207": {
+        "type": "quotes",
+        "blocks": {
+          "1543829456207-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Aura opened a whole new world for me! This is unbelievable, I am simply in love with Aura!<\/p>",
+              "author": "Pia"
+            }
+          },
+          "1543829456207-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>I couldn't imagine my period would become that nice one day! Simply love it! Go girls!!<\/p>",
+              "author": "Natalia"
+            }
+          },
+          "1543829456207-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Everything&nbsp;I need for my period! And the treats inside the box... They just make you feel so empowered!<\/p>",
+              "author": "Mireia"
+            }
+          }
+        },
+        "block_order": [
+          "1543829456207-0",
+          "1543829456207-1",
+          "1543829456207-2"
+        ],
+        "settings": {
+          "title": "HAPPY WOMEN"
         }
       }
     },
@@ -758,6 +826,7 @@
       "1540972304102",
       "featured-collections",
       "slideshow",
+      "1543829456207",
       "1538148722141",
       "1538148755753",
       "1541424243404"

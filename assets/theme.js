@@ -1,4 +1,3 @@
-console.log("hellllooooooo");
 window.theme = window.theme || {};
 /* ================ SLATE ================ */
 window.theme = window.theme || {};
@@ -2995,4 +2994,52 @@ theme.init = function() {
   });
 };
 
+// asset = shopify.Asset();
+// asset.key = "snippets/variables.js.liquid";
+// asset.src = "{{ actual path of script on your server }}";
+// asset.save();
+
+// if(product.type) {
+// 	echo "<p>A is larger than B</p>";
+// }
+
+// function() {
+//   console.log("HELLO WORLD");
+// };
+//
+// console.log("HELLO WORLD");
+
+
+
+//WORKS!!! Apply: when this condition is true assign a class to the field for changing it / change the css of the field directly
+
 $(theme.init);
+
+var coolvar = document.getElementsByClassName("bold-ro__order-interval-lbl");
+function myFunction() {
+  if (PFB_product_type=="box") {
+  console.log(coolvar.length);
+  coolvar[0].classList.add('changefreq');
+  }
+};
+setTimeout(myFunction, 300);
+
+
+console.log("this is coolvar");
+
+
+
+// DATE PICKER FOR THE PRODUCT PAGE OF THE BOX PROD
+
+$(document).ready( function() {
+  $(function() {
+    $("#date").datepicker( {
+      minDate: +1,
+      maxDate: '+2M',
+      beforeShowDay: jQuery.datepicker.noWeekends,
+      firstDay: 1,
+
+
+    } );
+  });
+});

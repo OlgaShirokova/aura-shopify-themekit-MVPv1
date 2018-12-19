@@ -163,7 +163,17 @@
                 {% endfor %}
               </select>
 
+              <div>
+                <p style="color: red;">
+                  In the next step you will be able to choose your favorite period products!
+                  And remember you can always change, pause or cancel your subscription!
+                  Any doubts? Contact us, we will help!
+                </p>
+              </div>
+
               <div id="infiniteoptions-container"></div>
+
+              <!-- <div><p style="color: white;">..................</p></div> -->
 
               {% if section.settings.show_quantity_selector %}
                 <div class="product-form__item product-form__item--quantity">
@@ -171,8 +181,22 @@
                   <input type="number" id="Quantity" name="quantity" value="1" min="1" class="product-form__input" pattern="[0-9]*">
                 </div>
               {% endif %}
+
+
+              {% comment %}DATE PICKER FOR THE BOX PRODUCT PAGE
+              <div style="width:300px; clear:both; margin-top:30px;">
+                <p>
+                  <label style="color:#3d4246;" for="date"><span style="font-size:180%;">❷</span>  Pick a delivery date:</label>
+                  <input id="date" type="text" name="attributes[date]" value="{{ cart.attributes.date }}" />
+                  <!-- <span style="display:block" class="instructions"> We do not deliver during the weekend.</span> -->
+                </p>
+              </div>
+              {% endcomment %}
+
+
+
               <div class="product-form__item product-form__item--submit{% if section.settings.enable_payment_button %} product-form__item--payment-button{% endif %}{% if product.has_only_default_variant %} product-form__item--no-variants{% endif %}">
-{{ bold_ro_widget }}
+<div> {{ bold_ro_widget }} </div>
                   <button style="margin-top: 50px;" type="submit" name="add" id="AddToCart-{{ section.id }}" {% unless current_variant.available %}disabled="disabled"{% endunless %} class="btn product-form__cart-submit{% if section.settings.enable_payment_button %} btn--secondary-accent{% endif %}">
                     <span id="AddToCartText-{{ section.id }}">
                       {% unless current_variant.available %}
@@ -186,7 +210,13 @@
                   {{ form | payment_button }}
                 {% endif %}
               </div>
-              <input type="hidden" name="return_to" value="pages/shop-add-on" />
+              {% comment %}<input type="hidden" name="return_to" value="pages/shop-add-on" />{% endcomment %}
+
+
+
+
+
+
             {% endform %}
           {% else %}
             {% form 'product', product, class:form_classes %}

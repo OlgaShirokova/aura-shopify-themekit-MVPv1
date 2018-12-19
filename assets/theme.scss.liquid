@@ -1222,7 +1222,7 @@ html {
 .main-content {
   display: block;
   padding-top: $section-spacing-small;
-  background-image: url(https://i.imgur.com/Cpur1Mn.png);
+  background-image: url(https://i.imgur.com/RzBIdSI.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
@@ -1288,6 +1288,65 @@ html {
   background-position-x: center;
   background-position-y: top;
   background-repeat: no-repeat;
+}
+
+.bold-ro__order-interval-container {
+	margin-bottom: 30px;
+  padding-left: 0 !important;
+}
+
+.bold-ro__one-time-div, .bold-ro__recurring-div, .bold-ro__mix-div {
+  padding-left: 0 !important;
+}
+
+
+// .bold-ro__order-interval-lbl {
+// 	visibility: hidden;
+// 	position: relative;
+// }
+//
+// .bold-ro__order-interval-lbl:after {
+// 	visibility: visible;
+// 	position: absolute;
+// 	top: 0;
+// 	left: 0;
+// 	content: "This text replaces the original.";
+// }
+
+
+.changefreq {
+	visibility: hidden;
+	position: relative;
+}
+
+.changefreq:after {
+	visibility: visible;
+	position: absolute;
+	top: 0;
+	left: 0;
+  padding: 0;
+	content: "How long is your cycle?";
+}
+
+#infiniteoptions-container{
+  width:100%;
+}
+
+
+.datepicker {
+  margin-top: 30px;
+  margin-left: 6px;
+  display: block;
+  left:0;
+  width:100%;
+}
+
+.bold-ro__tooltip .tooltip-inner {
+  display: none;
+}
+
+.bold-ro__see-details {
+  display: none;
 }
 
 /*================ Typography ================*/
@@ -1535,7 +1594,7 @@ li {
 /*================ Hero and slideshow headers ================*/
 .mega-title,
 .mega-subtitle {
-  text-shadow: 0 0 15px $color-text-shadow;
+  text-shadow: 0 0 11px rgba(0,0,0,1);
 }
 
 .mega-title {
@@ -1560,6 +1619,10 @@ li {
   p {
     color: inherit;
   }
+}
+
+.hero__inner .mega-subtitle {
+  margin: 0;
 }
 
 .mega-subtitle--large {
@@ -1590,6 +1653,30 @@ li {
 #shopify-section-1540972145502 .hero__inner {
 }
 //SEE PAGE-WIDTH CLASS BELOW FOR MORE DETAILS ON MARGINS PC/MOBILE
+
+#shopify-section-1543829456207 {
+  background-image: url("https://i.postimg.cc/WjmWqNzQ/ishan-seefromthesky-193028-unsplash-copy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+}
+
+#shopify-section-1543829456207 h2 {
+  font-weight: bold;
+}
+
+#shopify-section-1543829456207 p {
+  color: white;
+}
+
+#shopify-section-1543829456207 cite {
+  font-weight: bold;
+}
 
 /*================ #Icons ================*/
 .icon {
@@ -2482,12 +2569,22 @@ textarea {
 }
 
 #shopify-section-1541433254311 h2 {
+  font-size: 200%;
+
+  @include media-query($small) {
+    text-align: center;
+  }
 
 }
 
 #shopify-section-1541433254311 p {
-  font-family: "avenir next";
-  font-size: 90%;
+  // font-family: "avenir next";
+  font-size: 120%;
+
+  @include media-query($small) {
+    text-align: center;
+  }
+
 }
 
 #shopify-section-1541433254311 .page-width {
@@ -2495,11 +2592,28 @@ textarea {
 }
 
 #shopify-section-1540966980110 .btn {
-  margin-top: 460px;
+  margin-top: 580px;
   border-color: black;
+  font-size: 120%;
 
   @include media-query($small) {
       margin-bottom: 50px;
+    }
+
+}
+
+#shopify-section-1540966980110 .hero--large {
+
+  @include media-query($small) {
+      background-size: 300%;
+    }
+
+}
+
+#shopify-section-1540966980110 .hero__inner {
+
+  @include media-query($small) {
+      padding-top: 0px;
     }
 
 }
@@ -5583,6 +5697,23 @@ $toolbar-height-small: 46px;
   margin-top: $section-spacing / 2;
 }
 
+.hero__inner h2 {
+  text-align: left;
+}
+
+.hero__inner p {
+  text-align: left;
+}
+
+.hero__inner a {
+  margin-top: 100px;
+  float: left;
+}
+
+#shopify-section-1540966980110 a {
+  float: initial;
+}
+
 /*================ Quote slider ================*/
 .quote-icon {
   display: block;
@@ -5864,6 +5995,9 @@ $toolbar-height-small: 46px;
 
 .image-bar {
   overflow: hidden;
+  background-color: #FFEAE7;
+  padding-top: 100px;
+  padding-bottom: 50px;
 
   @include media-query($small) {
     max-width: 400px;
@@ -6185,4 +6319,82 @@ $toolbar-height-small: 46px;
   bottom: 0;
   left: 0;
   z-index: 2;
+}
+
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * *
+ShopPad App: Infinite Options
+https://apps.shopify.com/custom-options
+* * * * * * * * * * * * * * * * * * * * * * * * * * */
+#infiniteoptions-container .datepicker {
+  position: relative;
+  width: 100%;
+}
+
+#infiniteoptions-container .datepicker tr:after,
+#infiniteoptions-container .datepicker tr:before,
+#infiniteoptions-container .datepicker th:after,
+#infiniteoptions-container .datepicker th:before,
+#infiniteoptions-container .datepicker td:after,
+#infiniteoptions-container .datepicker td:before {
+  display: none !important;
+}
+
+#infiniteoptions-container .ui-datepicker-inline {
+  margin: 0;
+  padding-top: 0;
+  background-color: #fff;
+  color: #333;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+#infiniteoptions-container .ui-datepicker-calendar {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#infiniteoptions-container .ui-datepicker-calendar td,
+#infiniteoptions-container .ui-datepicker-calendar th {
+  cursor: pointer;
+  text-align: center !important;
+  padding: 5px !important;
+  height: 10px !important;
+  width: 10px !important;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+#infiniteoptions-container .ui-datepicker-header {
+  border: 1px solid #ddd;
+  border-bottom: 0;
+}
+
+#infiniteoptions-container .ui-datepicker-title {
+  text-align: center;
+  padding: 10px;
+}
+
+#infiniteoptions-container .ui-datepicker-prev {
+  float: left;
+  padding: 10px;
+}
+
+#infiniteoptions-container .ui-datepicker-next {
+  float: right;
+  padding: 10px;
+}
+
+#infiniteoptions-container .ui-icon {
+  cursor: pointer;
+}
+
+#infiniteoptions-container .ui-state-disabled {
+  opacity: .5;
 }

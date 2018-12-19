@@ -47,7 +47,7 @@
       {% endpaginate %}
     </div>
     <div class="grid__item medium-up--one-third">
-      <h2>{{ 'customer.account.details' | t }}</h2>
+      <h2>{{ 'customer.account.details' | t }} <br><a href="/account?view=edit" style="font-size: 14px;">{{ shop.metafields.locales.edit }}</a></h2>
 <p><a href="/tools/checkout/front_end/login" class="text-link">Manage Subscription</a></p>
 
       {{ customer.default_address | format_address }}
