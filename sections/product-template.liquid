@@ -164,10 +164,8 @@
               </select>
 
               <div>
-                <p style="color: red;">
-                  In the next step you will be able to choose your favorite period products!
-                  And remember you can always change, pause or cancel your subscription!
-                  Any doubts? Contact us, we will help!
+                <p style="text-transform: uppercase; color:#01574E; font-weight: bold;">
+                  First program your deliveries!
                 </p>
               </div>
 
@@ -277,6 +275,14 @@
         <div class="product-single__description rte">
           {{ product.description }}
         </div>
+
+        <p style="text-transform: uppercase; font-weight: bold;">
+          Try it!  You will love your box!
+        </p>
+        <p style="font-weight: bold; color: #01574E;">
+        </br></br>You can always change, pause or cancel your subscription!</br>
+          Any doubts? Contact us, we will help!
+        </p>
 
         {% if section.settings.show_share_buttons %}
           {% include 'social-sharing', share_title: product.title, share_permalink: product.url, share_image: product %}

@@ -1299,6 +1299,18 @@ html {
   padding-left: 0 !important;
 }
 
+.bold-modal__content {
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+}
+
+.bold-ro__choice-header {
+  padding-right: 50px !important;
+}
+
+.bold-ro__custombutton-1524764704883 {
+  margin-top: -30px;
+}
 
 // .bold-ro__order-interval-lbl {
 // 	visibility: hidden;
@@ -2020,6 +2032,17 @@ td {
   padding: 10px 14px;
 }
 
+.fields label{
+  margin: 0 !important;
+}
+
+.customr-control-label {
+  font-weight: bold;
+  color: #01574E;
+  text-transform: uppercase;
+
+}
+
 /*============================================================================
   Responsive tables, defined with .responsive-table on table element.
 ==============================================================================*/
@@ -2030,7 +2053,9 @@ td {
     }
 
     tr {
-      display: block;
+      border: 2px solid #01574E;
+      margin-left: 5px;
+      margin-right: 5px;
     }
 
     // IE9 table layout fixes
@@ -2045,16 +2070,16 @@ td {
     td {
       display: block;
       text-align: right;
-      padding: $gutter-site / 2;
-      border: 0;
+      // padding: $gutter-site / 2;
       margin: 0;
+      border: 0;
     }
 
     td::before {
       content: attr(data-label);
       float: left;
       text-align: center;
-      font-size: 12px;
+      font-size: 16px;
       padding-right: 10px;
     }
   }
@@ -2908,6 +2933,7 @@ hr {
 .product-price__price {
   display: inline-block;
   color: $color-body-text;
+  font-size: 110%;
 }
 
 .product-price__sale {
