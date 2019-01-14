@@ -11,6 +11,13 @@
         {% endfor %}
       </select>
     {% endif %}
+
+    <form name="cssearch" method="get" action="/search" onsubmit="addFilter();" style="margin-top:20px;">
+      <input name="type" value="article" type="hidden" />
+      <input class="searchBox field" name="q" if="" search="" performed="" placeholder="Search Our Help Topics" endif="" type="text" />
+      <input class="submit" value="Search" type="submit" />
+    </form>
+
   </header>
 </div>
 
@@ -199,6 +206,15 @@
     {% include 'pagination' %}
   {% endif %}
 </div>
+
+{% comment %}
+  <script type="text/javascript">
+    function addFilter(){
+      document.cssearch.q.value += ' AND author:Olga+Shirokova';
+      return true;
+    }
+  </script>
+{% endcomment %}
 
 {% endpaginate %}
 
