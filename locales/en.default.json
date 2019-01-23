@@ -14,8 +14,8 @@
       "page": "Page {{ page }}"
     },
     "404": {
-      "title": "404 Page Not Found",
-      "subtext": "The page you requested does not exist.",
+      "title": "Oh no! Something went wrong here!",
+      "subtext": "This page does not exist, sorry! Go back and explore Aura!",
       "link": "Continue shopping"
     },
     "pagination": {

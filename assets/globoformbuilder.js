@@ -70,6 +70,9 @@ FormBuilderApp.init = function($){
              if ($(this).text().indexOf("globoformbuilder_init.js?") != -1 && $(this).text().indexOf("asyncLoad") != -1 && $(this).text().indexOf("initSchema") == -1) {
                  installed = true;
              }
+             if(typeof GPFBInstalled!== 'undefined') {
+              	installed = true;
+             }
         });
         if(!installed) {console.log("Powerful Formbuilder has been uninstalled ");return false;}
 
@@ -343,6 +346,7 @@ FormBuilderApp.init = function($){
         //$(document).ready(function() {
         // Do not edit shop_url_ area . This field will be rendered dynamically.
         var shop_url_ = "aura-box.myshopify.com";
+        var shop_domain_ = "";
         //
         var form_id = 0;
         var html = $("body").html();
@@ -375,10 +379,10 @@ FormBuilderApp.init = function($){
                       },
                       async: false,
                       beforeSend:function (){
-                          var allElementContain = $("*:contains("+shortCode+")");
+                          var allElementContain = $("*:contains('"+shortCode+"')");
                           var shortCodeParent = [];
                           $.each(allElementContain , function (key,element){
-                            if(allElementContain.eq(key).find(" > *:contains("+shortCode+")").length<=0){
+                            if(allElementContain.eq(key).find(" > *:contains('"+shortCode+"')").length<=0){
                               shortCodeParent.push(element);
                             }
                           });
@@ -390,10 +394,10 @@ FormBuilderApp.init = function($){
                       },
                       success: function (data) {
                           if (data.success){
-                              var allElementContain = $("*:contains("+shortCode+")");
+                              var allElementContain = $("*:contains('"+shortCode+"')");
                               var shortCodeParent = [];
                               $.each(allElementContain , function (key,element){
-                                if(allElementContain.eq(key).find(" > *:contains("+shortCode+")").length<=0){
+                                if(allElementContain.eq(key).find(" > *:contains('"+shortCode+"')").length<=0){
                                   shortCodeParent.push(element);
                                 }
                               });
@@ -436,7 +440,7 @@ FormBuilderApp.init = function($){
                                     if(typeof PFB_product_url !== 'undefined'){
                                       if(PFB_product_name!="") link = PFB_product_name;
                                       else link = PFB_product_url;
-                                      $(item).val("<a target='_blank' href='//"+shop_url_+PFB_product_url+"'> "+link+"</a>");
+                                      $(item).val("<a target='_blank' href='//"+shop_domain_+PFB_product_url+"'> "+link+"</a>");
                                     }
                                   }
                               });
@@ -522,17 +526,21 @@ FormBuilderApp.init = function($){
               var this_btn = $(this).find('button[type=submit]');
               // Validate
               var form = $(this).closest("form");
+              var hidemessage_after_submit = $(this).attr('hidemessage_after_submit');
               var hideform_after_submit = $(this).attr('hideform_after_submit');
               var redirect_after_submit = $(this).attr('redirect_after_submit');
               // check if the input is valid
 
-              if(!form.valid()) {
-                return false;
+              try {
+                  if(!form.valid()) {
+                    return false;
+                  }
               }
+              catch(err) {}
 
 
 
-              if(typeof grecaptcha !== 'undefined'){
+              if(typeof grecaptcha !== 'undefined' && typeof globo_grecaptcha !== 'undefined'&&form.find('#alertCapcha').length){
                 if(grecaptcha.getResponse()==""){
                   $("#alertCapcha").text("Please verify that you are not robot.");
                   return false;
@@ -541,6 +549,12 @@ FormBuilderApp.init = function($){
                   $("#alertCapcha").hide();
                 }
               }
+              $('input[type=file]',$('.g-form-container')).each(function() {
+                        var files = $(this).prop('files');
+                        if ( files != undefined && files.length <= 0 ) {
+                            $(this).removeAttr('name');
+                        }
+                    });
               $.ajax({
                   url: FormBuilderApp.config.appUrl+"form/submit",
                   type: "POST",
@@ -560,7 +574,7 @@ FormBuilderApp.init = function($){
                   },
                   complete: function(data) {
 
-
+                    data.responseJSON = JSON.parse(data.responseText)
                     if(data.responseJSON.success==true){
                         if(hideform_after_submit!="0"){
                             setTimeout(function(){
@@ -570,12 +584,14 @@ FormBuilderApp.init = function($){
                             }
                             this_btn.closest(".g-form-container").find('form').css({"height":"0","overflow":"hidden"});
                             }, 1000);
-                            setTimeout(function(){
-                              this_btn.closest(".g-form-container").find('.successSubmit').addClass('elementToFadeIOut');
-                            }, 3000);
-                            setTimeout(function(){
-                              this_btn.closest(".g-form-container").remove();
-                            }, 4000);
+                            if(hidemessage_after_submit!="0"){
+                                setTimeout(function(){
+                                  this_btn.closest(".g-form-container").find('.successSubmit').addClass('elementToFadeIOut');
+                                }, 3000);
+                                setTimeout(function(){
+                                  this_btn.closest(".g-form-container").remove();
+                                }, 4000);
+                            }
                         }
                         else {
                             this_btn.closest('form')[0].reset();
@@ -586,11 +602,13 @@ FormBuilderApp.init = function($){
                             if(typeof submit_mess !== "undefined"){
                               this_btn.closest(".g-form-container").append("<div class='successSubmit'>"+submit_mess+"</div>");
                             }
-                            setTimeout(function(){
-                                this_btn.closest(".g-form-container").find('.successSubmit').remove();
-                            },2000);
+                            if(hidemessage_after_submit!="0"){
+                                setTimeout(function(){
+                                    this_btn.closest(".g-form-container").find('.successSubmit').remove();
+                                },2000);
+                            }
                         }
-                        if(typeof redirect_after_submit !== "undefined" && redirect_after_submit!=''){
+                        if(typeof redirect_after_submit !== "undefined" && redirect_after_submit!='' && redirect_after_submit!='0'){
                             window.location.href = redirect_after_submit;
                         }
 
