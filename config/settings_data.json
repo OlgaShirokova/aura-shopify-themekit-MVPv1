@@ -522,7 +522,7 @@
         "type": "newsletter",
         "settings": {
           "section_title": "Subscribe to our newsletter",
-          "subheading": "A short sentence describing what someone will receive by subscribing",
+          "subheading": "Relevant news, learnings you can't miss, community activities, special offers and so much more!",
           "show_background": true
         }
       },

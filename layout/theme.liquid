@@ -115,8 +115,12 @@
         function callback() {
           $('#infiniteoptions-container .datepicker').datepicker({
             inline: true,
+            beforeShowDay: function(date) {
+              var day = date.getDay();
+              return [(day != 0)];
+            },
             firstDay: 1,
-            minDate: 0,
+            minDate: "+6d",
             altField: '#infiniteoptions-container .datepicker input[type=text]',
             onSelect: function() {
               $('#infiniteoptions-container .ui-datepicker-inline').hide();
@@ -161,6 +165,7 @@
 
 <!-- End Area -->
 {% include 'weglot_hreftags' %}
+
 
 
 
