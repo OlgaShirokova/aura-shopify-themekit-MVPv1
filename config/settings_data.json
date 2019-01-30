@@ -71,7 +71,7 @@
           "image": "shopify:\/\/shop_images\/Screenshot_2018-11-30_at_16.41.26.png",
           "alignment": "center",
           "title": "Embrace your essence.",
-          "text": "<p>Design your personal care box and transform your next period for the better.<\/p>",
+          "text": "<p>Design your personal care box and <br>transform your next period for the better.<\/p>",
           "hero_size": "large",
           "text_size": "large",
           "button_label": "Try Aura ▸",

@@ -2,7 +2,20 @@
 <!--[if IE 9]> <html class="ie9 no-js" lang="{{ shop.locale }}"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="no-js" lang="{{ shop.locale }}"> <!--<![endif]-->
 <head>
-    <script>
+
+  <!-- Hotjar Tracking Code for www.aurabox.co -->
+  <script>
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1179283,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+
+  <script>
     window.Shoppad = window.Shoppad || {},
     window.Shoppad.apps = window.Shoppad.apps || {},
     window.Shoppad.apps.infiniteoptions = window.Shoppad.apps.infiniteoptions || {},
@@ -98,7 +111,7 @@
 		{% endif %}
 	</script>
 
-  {%comment%} Date picker for box product page lines of code {%endcomment%}
+  {% comment %} Date picker for box product page lines of code {% endcomment %}
   {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }}
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript" defer="defer"></script>
 
