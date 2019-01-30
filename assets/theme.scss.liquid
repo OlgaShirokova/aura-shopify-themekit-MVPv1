@@ -1266,10 +1266,10 @@ html {
 .all-boxes-page {
   margin-top: -55px;
   padding-top: 55px;
-  background-image: url(https://i.imgur.com/wIgNQ55.png);
+  background-image: url(https://i.imgur.com/4YHGIo1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position-x: center;
 }
 
 .shop-page {
@@ -1282,11 +1282,14 @@ html {
 }
 
 .know-products-page {
-  margin-top: 30px;
-  background-image: url(https://i.imgur.com/wIgNQ55.png);
+}
+
+.know-products-container{
+  margin-top: -95px;
+  padding-top: 95px;
+  background-image: url(https://i.imgur.com/X2JU1R1.png);
   background-size: cover;
   background-position-x: center;
-  background-position-y: top;
   background-repeat: no-repeat;
 }
 
@@ -1606,18 +1609,19 @@ li {
 /*================ Hero and slideshow headers ================*/
 .mega-title,
 .mega-subtitle {
-  text-shadow: 0 0 11px rgba(0,0,0,1);
+  // text-shadow: 0 0 11px rgba(0,0,0,1);
 }
 
 .mega-title {
   margin-bottom: 8px;
+  font-weight: bold;
 }
 
 .mega-title--large {
   font-size: em($font-size-header + 8);
 
   @include media-query($medium-up) {
-    font-size: em(floor($font-size-header * 2.5));
+    font-size: em(floor($font-size-header * 2.1));
   }
 }
 
@@ -5734,6 +5738,8 @@ $toolbar-height-small: 46px;
 .hero__inner a {
   margin-top: 100px;
   float: left;
+  color: #00564E;
+  font-weight: bold;
 }
 
 #shopify-section-1540966980110 a {
