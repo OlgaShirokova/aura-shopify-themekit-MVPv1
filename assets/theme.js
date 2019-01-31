@@ -3018,14 +3018,14 @@ $(theme.init);
 var coolvar = document.getElementsByClassName("bold-ro__order-interval-lbl");
 function myFunction() {
   if (PFB_product_type=="box") {
-  console.log(coolvar.length);
+  // console.log(coolvar.length);
   coolvar[0].classList.add('changefreq');
   }
 };
 setTimeout(myFunction, 300);
 
 
-console.log("this is coolvar");
+// console.log("this is coolvar");
 
 
 

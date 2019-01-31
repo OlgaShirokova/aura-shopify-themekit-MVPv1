@@ -130,8 +130,6 @@
   {{ '//code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css' | stylesheet_tag }}
   <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js" type="text/javascript" defer="defer"></script>
 
-  <script>console.log({{ cart | json }});</script>
-  <script>console.log("THIS IS CART JSON");</script>
 
   {% comment %} !!! ACTIVE SETTINGS FOR Date picker OF INFINITE OPTIONS for box product page lines of code {% endcomment %}
     <script>
@@ -241,6 +239,10 @@
 
 
 
+
+
+
+
 {% include 'weglot_switcher' %}
 </head>
 
@@ -292,8 +294,6 @@
   //]]></script> -->
 
 </body>
-
-<!-- <script>console.log("HELLO");</script> -->
 
 
 <script type="text/javascript" src="{{shop.secure_url}}/apps/vig/liquid_factory/scripttag.js?shop={{shop.permanent_domain}}"></script>
