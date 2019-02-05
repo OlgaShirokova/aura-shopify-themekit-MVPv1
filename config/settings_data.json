@@ -814,6 +814,16 @@
         "settings": {
           "title": "HAPPY WOMEN"
         }
+      },
+      "1549019724264": {
+        "type": "rich-text",
+        "disabled": true,
+        "settings": {
+          "full_width": true,
+          "section_title": "Any doubts? Here we try to solve them!",
+          "text": "<p><strong>How much are the boxes?<\/strong><br>The boxes cost from 9 to 21 depending. Without any permanency, you can cancel even after the first order and try it as a one-time thing!<br><br><strong>What will I get in my box?<\/strong><br>You will get all the hygiene products you need and several wellness products to feel yourself beautiful<br><br><strong>How do I personalize my box?&nbsp;<\/strong><br>You seleect your hygiene products yourself! And for the best personalisation of wellness products fill in your profile and we will deliver you tailored products only for you!&nbsp;<br><br><strong>When will I get my box?&nbsp;<\/strong><br>You program the delivery! Just choose the date you prefer from the calendar! We recommend you to think of your next period, subtract 3 days to have a margin and voila, you have your delivery date to match your cycle!<br><br><a href=\"https:\/\/aurabox.co\/apps\/help-center\" title=\"https:\/\/aurabox.co\/apps\/help-center\">For more doubts visit our<\/a><span style=\"text-decoration: underline;\"><strong><a href=\"https:\/\/aurabox.co\/apps\/help-center\" title=\"https:\/\/aurabox.co\/apps\/help-center\"> Help Center!<\/a><\/strong><\/span><\/p>",
+          "text_size": "medium"
+        }
       }
     },
     "content_for_index": [
@@ -828,6 +838,7 @@
       "slideshow",
       "1543829456207",
       "1538148722141",
+      "1549019724264",
       "1538148755753",
       "1541424243404"
     ]
